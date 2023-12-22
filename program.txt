@@ -1,0 +1,14 @@
+ADD R0 R0 5 // R0 = 5 (hex value 0x05)
+STR R0 R3 0 // Store R0 at 0x00
+LDR R1 R3 0 // Load data at 0x00 into R1
+ADD R1 R1 5 // R1 = 10 (hex value 0x0a)
+STR R1 R3 1 // Store R1 at 0x01
+LDR R2 R3 1 // Load data at 0x01 into R2
+ADD R2 R2 5 // R2 = 15 (hex value 0x0f)
+STR R2 R3 2 // Store R2 at 0x02
+LDR R3 R3 2 // Load data at 0x02 into R3
+ADD R3 R3 5 // R3 = 20 (hex value 0x14)
+SUB R3 R3 1 // R3 = 19 (hex value 0x13)
+SUB R2 R2 1 // R2 = 14 (hex value 0x0e)
+SUB R1 R1 1 // R1 = 9  (hex value 0x09)
+SUB R0 R0 1 // R0 = 4  (hex value 0x04)
